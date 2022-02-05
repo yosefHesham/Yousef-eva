@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #d3d3d3;
+    height: 100vh;
+    width: 80%;
+    text-align: center;
+
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #content {
+      padding-top: 10%;
+  }
+  
+  header {
+    margin-left: 5%;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+  }
+  nav {
+      margin-left: 40%;
+  }
+  nav  a{
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+  } 
+  
+  #header-img{
+    height: 5%;
+    width: 5%;
+    float: left;
+    margin-right: 5px;
+  }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

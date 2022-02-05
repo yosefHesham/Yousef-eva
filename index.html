@@ -11,15 +11,15 @@
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <header id="header">
     <img src="https://www.mintformations.co.uk/blog/wp-content/uploads/2020/05/shutterstock_583717939.jpg"
-      id="header-img" width="15%" height="10%" />
+      id="header-img" />
     <nav id="nav-bar">
       <a href="#html" class="nav-link">HTML</a> |
       <a href="#css" class="nav-link">CSS</a> |
-      <a href="#js" class="nav-link">JavaScript</a> |
+      <a href="#js" class="nav-link">JavaScript</a>
     </nav>
 
   </header>
-
+  <div id="content">
   <h1 id="html"> HTML </h1>
   <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
@@ -51,10 +51,11 @@
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
 
-    <form id="form">
-      <input type="email" id="email" placeholder="Email Address">
+    <form id="form" action="https://www.freecodecamp.org/email-submit">
+      <input type="email" id="email" placeholder="Email Address" name="email" required> <br>
       <input type="submit" id="submit">
     </form>
+  </div>
   <script src="js/index.js"></script>
 </body>
 
